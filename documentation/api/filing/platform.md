@@ -6,6 +6,11 @@ This API powers the [HMDA Filing application](https://ffiec.cfpb.gov/filing/)
 
 ## Authorization
 
+<p style={{ background: '#ffe4c4', paddingLeft: '10px', paddingTop: '10px', paddingBottom: '10px' }}>
+<b><u>Please note:</u></b> Starting on January 1st 2025, for the 2024 HMDA Filling season, all users will be required to authenticate using Login.gov. In order to integrate with the HMDA Platform using Login.gov please contact HMDA Help (hmdahelp@cfpb.gov).
+
+</p>
+
 To file HMDA data using the Filing API, a _bearer_ authorization token is required for all Filing API calls. To acquire an authorization token use the `/auth` endpoint with your username and password as payload.
 
 For local development, no authorization is needed. See [One-line Local Development Environment (No Auth)](https://github.com/cfpb/hmda-platform#one-line-local-development-environment-no-auth) for more info.
