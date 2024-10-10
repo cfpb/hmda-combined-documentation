@@ -59,6 +59,10 @@ const config = {
       src: '/documentation/js/scrollspy.js',
       defer: true,
     },
+    {
+      src: '/documentation/js/footnoteScrolling.js',
+      defer: true,
+    },
   ],
 
   plugins: [
