@@ -6,7 +6,7 @@
 |   1   |   Record Identifier – Value is 1   |   Numeric   |   1   |   |   |
 |   2   |   Financial Institution Name   |   Alphanumeric   |   |   Example:   Ficus Bank   |   |
 |   3   |   Calendar Year   |   Numeric   |   |   Example:   2023   |   |
-|   4   |   Calendar Quarter   |   Numeric   |   4   |   Description:   4. Annual submissions for all HMDA filers for covered loans and applications with respect to which final action was taken from January 1st (01/01) and December 31st (12/31)   Codes 1, 2, and 3 are used only during quarterly filing by institutions required to report  data quarterly  [1]. More information on quarterly filing is found in the  Supplemental Guide for Quarterly Filers  .   |   |
+|   4   |   Calendar Quarter   |   Numeric   |   4   |   Description:   4. Annual submissions for all HMDA filers for covered loans and applications with respect to which final action was taken from January 1st (01/01) and December 31st (12/31)   Codes 1, 2, and 3 are used only during quarterly filing by institutions required to report data quarterly. More information on quarterly filing is found in the  Supplemental Guide for Quarterly Filers  .   |   |
 |   5   |   Contact Person’s Name   |   Alphanumeric   |   |   Example:   Erika Otis   |   |
 |   6   |   Contact Person’s Telephone Number   |   Alphanumeric   |   |   Example:   999-999-9999   |   |
 |   7   |   Contact Person’s E-mail Address   |   Alphanumeric   |   |   Example:   erikaotis@bank.com   |   |
