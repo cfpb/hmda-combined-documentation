@@ -82,18 +82,32 @@
 }
 
 /*************************
-   usa-identifier
+    usa-identifier
 /*************************/
 
 .usa-identifier {
   background-color: #1f498f;
-  .usa-identifier__required-link, .usa-identifier__required-link.usa-link, .usa-identifier__section--usagov a, .usa-identifier__identity-disclaimer a{ 
-     &:link, &:visited, &:active {
-        color: #fff;
-     }
-     &:hover {
-        color: #aaa;
-     } 
+
+  .usa-identifier__identity-domain {
+    color: #fff;
+  }
+
+  .usa-identifier__required-link,
+  .usa-identifier__required-link.usa-link,
+  .usa-identifier__section--usagov a,
+  .usa-identifier__identity-disclaimer a {
+
+    &:link,
+    &:visited,
+    &:active {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    &:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
   }
 
   .ffiec-icon {
