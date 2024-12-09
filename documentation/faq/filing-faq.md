@@ -79,7 +79,7 @@ If using two separate systems to create your LAR File, please combine all entrie
 ## Submission
 
 ### If March 1 falls on a Saturday or Sunday, what is the filing deadline for submission of HMDA data?
-<a target="_blank" rel="noopener noreferrer" href="https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-1">As stated in Section 1003.5(a)(1)(iii)</a> when the last day for submission falls on a Saturday or Sunday, a submission shall be considered timely if it is submitted on the next succeeding Monday. For example, submissions of 2019 HMDA data were considered timely if received on or before Monday, March 2, 2020.
+As stated in <a target="_blank" rel="noopener noreferrer" href="https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-1">Section 1003.5(a)(1)(iii)</a> when the last day for submission falls on a Saturday or Sunday, a submission shall be considered timely if it is submitted on the next succeeding Monday. For example, submissions of 2019 HMDA data were considered timely if received on or before Monday, March 2, 2020.
 
 ### When is the filing period?
 The **Annual filing** period is between <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/faq/data-collection-timelines#annual-filing-period-dates">January 1 and March 1</a> of each year.  The <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/filing">HMDA Filing Platform</a> for each filing period opens January 1st.  The submission deadline is March 1st. 
