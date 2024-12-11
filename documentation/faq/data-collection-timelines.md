@@ -43,6 +43,10 @@ See below for information on HMDA Annual Filing period dates:
 
 ![](https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/annual_filing.png)
 
+If March 1 falls on a Saturday or Sunday, what is the filing deadline for submission of HMDA data?
+
+As stated in <a target="_blank" rel="noopener noreferrer" href="https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-1">Section 1003.5(a)(1)(iii)</a> when the last day for submission falls on a Saturday or Sunday, a submission shall be considered timely if it is submitted on the next succeeding Monday. For example, submissions of 2019 HMDA data were considered timely if received on or before Monday, March 2, 2020.
+
 ## Quarterly Filing Period Dates
 
 Beginning January 1, 2020, the 2015 HMDA Final Rule requires quarterly reporting for financial institutions that reported a combined total of at least 60,000 applications and covered loans, excluding purchased covered loans, for the preceding calendar year. Thus, in addition to their annual data submission, these larger-volume reporters will submit HMDA data for each of the first three quarters of the year on a quarterly basis. Further information can be found in <a target="_blank" rel="noopener noreferrer" href="https://www.consumerfinance.gov/rules-policy/regulations/1003/5/#a-1-ii">Regulation C, 12 CFR 1003.5(a)(1)(ii)</a>.
