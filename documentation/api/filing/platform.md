@@ -14,11 +14,27 @@ Follow the [Login.gov FAQ](/documentation/faq/login-gov-quick-reference) on crea
 
 ### Getting a Bearer Token
 
-In lieu of directly getting a token from an API call you will be required to go through the HMDA UI and obtain a Bearer Token via the HMDA User account page.
+Since switching over to using only login.gov the bearer token api route has been disabled.
+
+For development purposes, in lieu of directly getting a token from an API call, you can go through the HMDA UI and obtain a Bearer Token via the HMDA User account page.
 
 In the top right of the UI, click your name. It will take you to the Profile page. Scroll to the bottom and hover over the `Developer Settings` and click the `Copy Auth Token` option, it will copy the Bearer Token to your clipboard which can then be used for API calls.
 
 ![LoginGov HMDA Auth Token](/img/api/login_gov_token.gif)
+
+In order to more fully integrate with the HMDA Platform your application will need to link to HMDA's authentication server in the same way that HMDA's frontend UI does, changing the redirect uri to link back to your own application.
+
+When accessing keycloak the frontend sends the following request:
+
+```
+https://ffiec.cfpb.gov/auth/realms/hmda2/protocol/openid-connect/auth?client_id=hmda2-api&redirect_uri=https%3A%2F%2Fffiec.cfpb.gov%2Ffiling%2F2024%2Finstitutions&state=[[state]]&response_mode=fragment&response_type=code&scope=openid&nonce=[[nonce]]&code_challenge=[[codeChallenge]]code_challenge_method=S256
+```
+
+The `redirect_uri` parameter in that request needs to be changed to the uri of your application. For more information on that request you can review the official [OpenId documentation](https://openid.net/specs/openid-connect-core-1_0.html#AuthorizationEndpoint).
+
+Additionally, you will need to contact hmdahelp@cfpb.gov to have your application added as a valid redirect uri.
+
+As an example of an integration, the HMDA Frontend code can be found [on github](https://github.com/cfpb/hmda-frontend) with the specific section that integrates with keycloak in this [file](https://github.com/cfpb/hmda-frontend/blob/757ab4c1f542fce810de5dd4aaa4b27532a5ccbc/src/common/api/Keycloak.js). If you are running that code yourself, in order to have it reach out the HMDA authentication service you would change [this value](https://github.com/cfpb/hmda-frontend/blob/master/public/keycloak.json#L3) to `http://ffiec.cfpb.gov/auth`.
 
 ## Postman Collection
 
