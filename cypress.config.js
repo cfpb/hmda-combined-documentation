@@ -6,6 +6,9 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  env: {
+    HOST: 'http://localhost:3000',
+  },
   video: false,
   screenshotOnRunFailure: false,
   viewportHeight: 1000,
