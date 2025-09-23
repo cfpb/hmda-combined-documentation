@@ -228,3 +228,7 @@ The version log JSON for supplemnental guide for quarterly filers lives under `f
       ]
     }
 ```
+
+### Updating Graphics and Diagrams
+
+Instructions for updating the [timeline graphics](https://ffiec.cfpb.gov/documentation/faq/data-collection-timelines) can be found on our [internal wiki](https://[GHE]/HMDA-Operations/hmda-devops/wiki/Graphics-&-Diagrams).
