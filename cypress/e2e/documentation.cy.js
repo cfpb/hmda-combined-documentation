@@ -113,7 +113,7 @@ describe('Covers Filing Instructions Guide (FIG) interactions', () => {
 
   it('Ensures the latest FIG is live', () => {
     cy.visit(FIG_DOCS_DEFAULT_URL)
-    const year = FIG_DOCS_DEFAULT_URL.match(/\/(\d+)\/overview/)[1]
+    const year = '2026'
     cy.get('h1').contains(year)
   })
   it('Searches for an answer on the 2023 FIG through Algolia', () => {
