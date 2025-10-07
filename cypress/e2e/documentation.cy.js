@@ -1,9 +1,9 @@
 const { HOST } = Cypress.env()
 
 const DOCS_DEFAULT_URL = `${HOST}/documentation/category/frequently-asked-questions`
-const FIG_DOCS_DEFAULT_URL = `${HOST}/documentation/fig/2025/overview` // Takes user to most current FIG document
+const FIG_DOCS_DEFAULT_URL = `${HOST}/documentation/fig/2026/overview` // Takes user to most current FIG document
 const CURRENT_FIG_YEAR = '2025'
-const LATEST_FIG_YEAR = '2026'
+const LATEST_FIG_YEAR = '2025'
 
 describe('General Checks', () => {
   it('Government banner is displayed and image is visible', () => {
@@ -113,7 +113,8 @@ describe('Covers Filing Instructions Guide (FIG) interactions', () => {
 
   it('Ensures the latest FIG is live', () => {
     cy.visit(FIG_DOCS_DEFAULT_URL)
-    cy.get('h1').contains(CURRENT_FIG_YEAR)
+    const year = FIG_DOCS_DEFAULT_URL.match(/\/(\d+)\/overview/)[1]
+    cy.get('h1').contains(year)
   })
   it('Searches for an answer on the 2023 FIG through Algolia', () => {
     cy.visit(`${HOST}/documentation/fig/2023/overview`)
