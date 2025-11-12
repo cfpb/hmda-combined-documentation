@@ -1,9 +1,12 @@
 ### Build Stage ###
 # Use node as the base image
-FROM node:20-alpine3.19 as build-stage
+FROM node:20-alpine3.22 as build-stage
 RUN apk update \
     && apk upgrade \
     && apk cache clean
+
+# updates pcre2 library to fix CVE-2025-58050 in alpine base image by updating it to at least 10.46-r0
+RUN apk update && apk upgrade pcre2>=10.46
 
 # Set the working directory to /app
 WORKDIR /app
@@ -33,7 +36,10 @@ RUN yarn build
 # RUN npm prune --production
 
 ### Run Stage ###
-FROM node:20-alpine3.19 as run-stage
+FROM node:20-alpine3.22 as run-stage
+
+# updates pcre2 library to fix CVE-2025-58050 in alpine base image by updating it to at least 10.46-r0
+RUN apk update && apk upgrade pcre2>=10.46
 
 # Set the working directory to /app
 WORKDIR /app

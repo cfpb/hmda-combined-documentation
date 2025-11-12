@@ -27,7 +27,8 @@
   "resolutions": {
     "webpack": "^5.76.3",
     "postcss": "^8.4.31",
-    "glob-parent": ">=5.1.2"
+    "glob-parent": ">=5.1.2",
+    "cross-spawn": "^7.0.6"
   },
   "devDependencies": {
     "@discoveryjs/json-ext": "^0.5.7",
