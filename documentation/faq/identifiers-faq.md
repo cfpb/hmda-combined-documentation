@@ -18,8 +18,8 @@ Respondent ID is for 2017 and prior is one of the following: OCC charter number,
 ### How can I map institution identifiers from 2017 to 2018?
 The _ARID2017 to LEI Reference Table_ provides a mapping of 2017 Agency Code and Respondent IDs (ARID2017) to their current institution identifiers (LEI). This table is available on the <a href="https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/">Snapshot National Loan Level Dataset</a> page, with direct links to each available table format provided below.
 
-- <a download href="https://s3.amazonaws.com/cfpb-hmda-public/prod/snapshot-data/arid2017tolei/arid2017_to_lei_xref_csv.zip">ARID2017 to LEI Reference Table (CSV)</a>  
-- <a download href="https://s3.amazonaws.com/cfpb-hmda-public/prod/snapshot-data/arid2017tolei/arid2017_to_lei_xref_psv.zip">ARID2017 to LEI Reference Table (Pipe Delimited)</a>
+- <a download href="https://files.ffiec.cfpb.gov/snapshot/arid2017tolei/arid2017_to_lei_xref_csv.zip">ARID2017 to LEI Reference Table (CSV)</a>  
+- <a download href="https://files.ffiec.cfpb.gov/snapshot/arid2017tolei/arid2017_to_lei_xref_psv.zip">ARID2017 to LEI Reference Table (Pipe Delimited)</a>
 
 ## Institution Name Changes
 
@@ -37,7 +37,7 @@ An institution’s Agency Code can change from year to year. These changes are d
 ## Institution Respondent ID Changes
 
 ### Do respondent IDs change with agency code changes?
-Changes to an institutions Agency Code may result in changes to that institutions Respondent ID, especially in the case of depository institutions. Please see the <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2017-hmda-fig.pdf#page=14">2017 HMDA FIG Table 1</a> for a breakout of how Respondent ID is derived based on Agency Code.
+Changes to an institutions Agency Code may result in changes to that institutions Respondent ID, especially in the case of depository institutions. Please see the <a target="_blank" rel="noopener noreferrer" href="https://files.ffiec.cfpb.gov/documentation/2017-hmda-fig.pdf#page=14">2017 HMDA FIG Table 1</a> for a breakout of how Respondent ID is derived based on Agency Code.
 
 ### How do I distinguish between a depository and a non-depository institution?
 In order to distinguish between depository and non-depository institutions in the HMDA data, refer to the <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/publications/loan-level-datasets/panel-data-fields">HMDA Panel</a> data field <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/publications/loan-level-datasets/panel-data-fields#other_lender_code">Other Lender Code</a>. Depository institutions all have Code 0 as their Other Lender Code. The remaining codes are all for non-depository institutions.

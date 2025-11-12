@@ -8,8 +8,8 @@ sidebar_position: 2
 
 <p>The Average Prime Offer Rates (APOR) Tables are updated weekly:</p>
 
-* <a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/apor/YieldTableFixed.txt">APOR Fixed Rates Table</a>
-* <a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/apor/YieldTableAdjustable.txt">APOR Adjustable Rates Table</a>
+* <a href="https://files.ffiec.cfpb.gov/apor/YieldTableFixed.txt">APOR Fixed Rates Table</a>
+* <a href="https://files.ffiec.cfpb.gov/apor/YieldTableAdjustable.txt">APOR Adjustable Rates Table</a>
 
 <p>This calculator provides rate spreads for HMDA reportable loans with a final action date on or after January 1st, 2018.</p>
 

@@ -83,4 +83,4 @@ Documentation served from github can be found on the [HMDA Frontend github repos
 
 ## S3 File Service
 
-All other files are accessed through direct links to the HMDA Platform's public S3 bucket. These S3 links are all prefixed with: `https://s3.amazonaws.com/cfpb-hmda-public/prod`.
+All other files are accessed through direct links to the HMDA Platform's public S3 bucket. These S3 links are all prefixed with: `https://files.ffiec.cfpb.gov/`.

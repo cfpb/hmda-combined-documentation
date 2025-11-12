@@ -21,7 +21,7 @@
    - Quick Start Guide
    - Additional Resources
    - The FFIEC and HUD have published resources for financial institutions required to file HMDA data on the Help for Filers section of the HMDA Homepage located at http://www.ffiec.cfpb.gov/.
-   - Information regarding valid values and data format can be found in Section 3.4 of the Filing Instructions Guide for HMDA data collected in or after 2018 located at https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf. 
+   - Information regarding valid values and data format can be found in Section 3.4 of the Filing Instructions Guide for HMDA data collected in or after 2018 located at https://files.ffiec.cfpb.gov/documentation/2019-hmda-fig.pdf. 
 
  b. The **Data Worksheet** is where the data is entered under the appropriate headings in **row 4**.
    - Certain cells in the Data Worksheet provide information regarding what data to enter. Prompts will appear when you select a cell.
