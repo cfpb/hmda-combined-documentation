@@ -19,40 +19,39 @@ spec:
     release: {{ .Release.Name }}
 
 ---
-apiVersion: v1
-kind: Service
+apiVersion: getambassador.io/v2
+kind: Mapping
 metadata:
   labels: 
-    service: {{ include "hmda-documentation.fullname" . }}-ambassador
-  name: {{ include "hmda-documentation.fullname" . }}-ambassador
-  annotations:
-    getambassador.io/config: |
-      apiVersion: ambassador/v2
-      kind: Mapping
-      name: hmda_documentation_mapping
-      ambassador_id: ambassador-beta-2
-      prefix: /documentation/
-      rewrite: /documentation/
-      service: {{ include "hmda-documentation.fullname" . }}.default.svc.cluster.local:{{ .Values.service.port }}
-      add_response_headers:
-        X-Frame-Options: SAMEORIGIN
-        X-Content-Type-Options: nosniff
-        referrer-policy:
-          value: strict-origin
-          append: False
-        content-security-policy:
-          append: False
-          value: "default-src 'self' blob:; script-src 'self' 'unsafe-inline' blob: data: https://tagmanager.google.com https://www.googletagmanager.com https://www.google-analytics.com https://*.cfpb.gov https://www.consumerfinance.gov https://cdn.mouseflow.com; img-src 'self' blob: data: https://www.google-analytics.com https://raw.githubusercontent.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/; font-src 'self' data: https://fonts.gstatic.com/; object-src 'none'; frame-src 'self' https://www.youtube.com/ https://ffiec.cfpb.gov/; connect-src 'self' https://*.cfpb.gov https://www.consumerfinance.gov https://raw.githubusercontent.com https://ffiec.beta.cfpb.gov https://ffiec.cfpb.gov https://*.mapbox.com https://www.google-analytics.com https://s3.amazonaws.com http://*.algolia.net https://stats.g.doubleclick.net;"
-        permissions-policy:
-          value: "autoplay=(), encrypted-media=(), fullscreen=(), geolocation=(), microphone=(), midi=()"
-        Strict-Transport-Security: 
-          append: False
-          value: "max-age=31536000; includeSubDomains; preload"
-      remove_response_headers:
-      - x-envoy-upstream-service-time
-      - Access-Control-Allow-Origin
-      - x-forwarded-host
-      - x-host
-      - x-forwarded-server
+    service: {{ include "hmda-documentation.fullname" . }}-mapping
+  name: {{ include "hmda-documentation.fullname" . }}-mapping
 spec:
-  clusterIP: None
+  {{- if .Values.ambassador_id }}
+  ambassador_id: {{ .Values.ambassador_id }}
+  {{- end}}
+  {{- if .Values.ambassador_host }}
+  host: {{ .Values.ambassador_host }}
+  {{- end}}
+  prefix: /documentation/
+  rewrite: /documentation/
+  service: {{ include "hmda-documentation.fullname" . }}.default.svc.cluster.local:{{ .Values.service.port }}
+  add_response_headers:
+    X-Frame-Options: SAMEORIGIN
+    X-Content-Type-Options: nosniff
+    referrer-policy:
+      value: strict-origin
+      append: False
+    content-security-policy:
+      append: False
+      value: "default-src 'self' blob:; script-src 'self' 'unsafe-inline' blob: data: https://tagmanager.google.com https://www.googletagmanager.com https://www.google-analytics.com https://*.cfpb.gov https://www.consumerfinance.gov https://cdn.mouseflow.com; img-src 'self' blob: data: https://www.google-analytics.com https://raw.githubusercontent.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/; font-src 'self' data: https://fonts.gstatic.com/; object-src 'none'; frame-src 'self' https://www.youtube.com/ https://ffiec.cfpb.gov/; connect-src 'self' https://*.cfpb.gov https://www.consumerfinance.gov https://raw.githubusercontent.com https://ffiec.beta.cfpb.gov https://ffiec.cfpb.gov https://*.mapbox.com https://www.google-analytics.com https://s3.amazonaws.com https://*.algolia.net https://stats.g.doubleclick.net;"
+    permissions-policy:
+      value: "autoplay=(), encrypted-media=(), fullscreen=(), geolocation=(), microphone=(), midi=()"
+    Strict-Transport-Security: 
+      append: False
+      value: "max-age=31536000; includeSubDomains; preload"
+  remove_response_headers:
+  - x-envoy-upstream-service-time
+  - Access-Control-Allow-Origin
+  - x-forwarded-host
+  - x-host
+  - x-forwarded-server

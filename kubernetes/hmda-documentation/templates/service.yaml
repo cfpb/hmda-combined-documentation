@@ -26,7 +26,12 @@ metadata:
     service: {{ include "hmda-documentation.fullname" . }}-mapping
   name: {{ include "hmda-documentation.fullname" . }}-mapping
 spec:
-  ambassador_id: ambassador-default-1
+  {{- if .Values.ambassador_id }}
+  ambassador_id: {{ .Values.ambassador_id }}
+  {{- end}}
+  {{- if .Values.ambassador_host }}
+  host: {{ .Values.ambassador_host }}
+  {{- end}}
   prefix: /documentation/
   rewrite: /documentation/
   service: {{ include "hmda-documentation.fullname" . }}:{{ .Values.service.port }}
