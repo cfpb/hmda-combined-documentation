@@ -54,12 +54,12 @@ Beginning January 1, 2020, the 2015 HMDA Final Rule requires quarterly reporting
 
 If you need additional information to help get your file ready you can refer to the <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2024/supplemental-guide-for-quarterly-filers">Supplemental Guide for Quarterly Filers</a> or the [Filing Instructions Guide (FIG)](#filing-instructions-guide-fig) section.
 
-See below for information on HMDA 2024 Quarterly Filing period dates:
+See below for information on HMDA 2026 Quarterly Filing period dates:
 
 ![Quarterly Filing calendar](/img/filing/quarterly_filing.png)
 
 Quarterly HMDA data submissions are separated into three quarters.   
 
-- Quarter 1 on time filing period: April 1 - May 30th (Loans with Final Action Taken Date: January 1 – March 31)
-- Quarter 2 on time filing period: July 1 - August 29 (Loans with Final Action Taken Date: April 1 – June 30)
-- Quarter 3 on time filing period: October 1 - November 29 (Loans with Final Action Taken Date: July 1 – September 30)
+- Quarter 1 on time filing period: April 1 - June 1 (Loans with Final Action Taken Date: January 1 – March 31)
+- Quarter 2 on time filing period: July 1 - August 31 (Loans with Final Action Taken Date: April 1 – June 30)
+- Quarter 3 on time filing period: October 1 - November 30 (Loans with Final Action Taken Date: July 1 – September 30)
