@@ -41,7 +41,7 @@ All requests must include a year that defines the filing period of the data.
 
 | Variable Name | Options |
 |:--------------|:---------|
-|years | 2018, 2019, 2020, 2021, 2022|
+|years | 2018, 2019, 2020, 2021, 2022, 2023, 2024|
 
 ### LEI Filter
 
