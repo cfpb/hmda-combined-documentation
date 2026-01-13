@@ -6,11 +6,12 @@ FROM node:20-alpine3.19 AS build-stage
 WORKDIR /app
 
 # Add Zscaler Root CA certificate
-COPY zscaler-root-public.cert /usr/local/share/ca-certificates/
+# COPY zscaler-root-public.cert /usr/local/share/ca-certificates/
+ADD https://raw.githubusercontent.com/cfpb/zscaler-cert/refs/heads/main/zscaler_root_ca.pem /usr/local/share/ca-certificates/zscaler_root_ca.pem
 RUN apk add ca-certificates --no-cache --no-check-certificate && \
     update-ca-certificates && \
     cp /etc/ssl/certs/ca-certificates.crt /app/ca-certificates.crt
-ARG NODE_EXTRA_CA_CERTS=/usr/local/share/ca-certificates/zscaler-root-public.cert
+ARG NODE_EXTRA_CA_CERTS=/usr/local/share/ca-certificates/zscaler_root_ca.pem
 
 RUN apk update \
     && apk upgrade \
