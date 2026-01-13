@@ -1,12 +1,21 @@
 ### Build Stage ###
 # Use node as the base image
-FROM node:20-alpine3.19 as build-stage
-RUN apk update \
-    && apk upgrade \
-    && apk cache clean
+FROM node:20-alpine3.19 AS build-stage
 
 # Set the working directory to /app
 WORKDIR /app
+
+# Add Zscaler Root CA certificate
+# COPY zscaler-root-public.cert /usr/local/share/ca-certificates/
+ADD https://raw.githubusercontent.com/cfpb/zscaler-cert/refs/heads/main/zscaler_root_ca.pem /usr/local/share/ca-certificates/zscaler_root_ca.pem
+RUN apk add ca-certificates --no-cache --no-check-certificate && \
+    update-ca-certificates && \
+    cp /etc/ssl/certs/ca-certificates.crt /app/ca-certificates.crt
+ARG NODE_EXTRA_CA_CERTS=/usr/local/share/ca-certificates/zscaler_root_ca.pem
+
+RUN apk update \
+    && apk upgrade \
+    && apk cache clean
 
 # Copy package.json and package-lock.json to the container
 COPY package*.json ./
@@ -33,7 +42,8 @@ RUN yarn build
 # RUN npm prune --production
 
 ### Run Stage ###
-FROM node:20-alpine3.19 as run-stage
+FROM node:20-alpine3.19 AS run-stage
+COPY --from=build-stage  /app/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 
 # Set the working directory to /app
 WORKDIR /app
