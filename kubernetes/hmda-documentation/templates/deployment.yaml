@@ -26,6 +26,8 @@ spec:
           - name: GIT_COMMIT
             value: {{ .Values.commitId }}
           securityContext:
+            seccompProfile:
+              type: RuntimeDefault
             allowPrivilegeEscalation: false
             capabilities:
               drop:
