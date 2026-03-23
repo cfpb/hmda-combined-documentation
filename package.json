@@ -28,7 +28,8 @@
     "webpack": "^5.76.3",
     "postcss": "^8.4.31",
     "glob-parent": ">=5.1.2",
-    "minimatch": ">=3.1.4"
+    "minimatch": ">=3.1.4",
+    "serialize-javascript": ">=7.0.2"
   },
   "devDependencies": {
     "@discoveryjs/json-ext": "^0.5.7",
