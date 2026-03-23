@@ -29,7 +29,8 @@
     "postcss": "^8.4.31",
     "glob-parent": ">=5.1.2",
     "minimatch": ">=3.1.4",
-    "serialize-javascript": ">=7.0.2"
+    "serialize-javascript": ">=7.0.2",
+    "glob": ">=10.5.0"
   },
   "devDependencies": {
     "@discoveryjs/json-ext": "^0.5.7",
@@ -59,6 +60,5 @@
   },
   "engines": {
     "node": ">=20.0"
-  },
-  "packageManager": "yarn@4.12.0+sha512.f45ab632439a67f8bc759bf32ead036a1f413287b9042726b7cc4818b7b49e14e9423ba49b18f9e06ea4941c1ad062385b1d8760a8d5091a1a31e5f6219afca8"
+  }
 }
