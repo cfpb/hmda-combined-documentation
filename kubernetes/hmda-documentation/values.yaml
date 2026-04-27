@@ -51,4 +51,6 @@ tolerations: []
 affinity: {}
 
 # ambassador_id: ambassador-default-1
-ambassador_host: ffiec.cfpb.gov
+
+# can be set to a specific host via cli: --set ambassador_host=ffiec.cfpb.gov
+# ambassador_host: ffiec.cfpb.gov
