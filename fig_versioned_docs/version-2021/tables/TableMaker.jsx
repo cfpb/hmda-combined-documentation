@@ -33,8 +33,11 @@ export const TableMaker = ({ jsonData, tableNumber, tableName }) => {
           modifiedValue = cellValue
             .replace(/ (\d+)\)/g, '<br>$1) ') // Add <br> before space-digit-period-space
         }
-        else if (columnKey == 'Data Field Number' || columnKey == "Edit ID") {
+        else if (columnKey == 'Data Field Number') {
           modifiedValue = '<span class="anchor anchorWithStickyNavbar_LWe7" id="table' + tableNumber + '-' + cellValue + '">' + cellValue + '</span>' + '<a class="hash-link" href="#table' + tableNumber + '-' + cellValue + '"></a>'
+        }
+        else if (columnKey == "Edit ID") {
+          modifiedValue = '<span class="anchor anchorWithStickyNavbar_LWe7" id="edit-' + cellValue + '">' + cellValue + '</span>' + '<a class="hash-link" href="#edit-' + cellValue + '"></a>'
         }
         
         return <div dangerouslySetInnerHTML={{ __html: modifiedValue }} />;
