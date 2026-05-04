@@ -33,11 +33,14 @@ If you are looking for a particular year's data, or additional documentation abo
 |2018|[Three Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/three-year-national-loan-level-dataset/2018)|Dec 31, 2021|
 |2019|[Three Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/three-year-national-loan-level-dataset/2019)|Dec 31, 2022|
 |2020|[Three Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/three-year-national-loan-level-dataset/2020)|Dec 31, 2023|
+|2021|[Three Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/three-year-national-loan-level-dataset/2021)|Dec 31, 2024|
 |2020|[One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/2020)|Apr 30, 2022|
 |2021|[One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/2021)|May 1, 2023|
 |2022|[One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/2022)|May 1, 2024|
+|2023|[One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/2023)|May 19, 2025|
 |2022|[Snapshot National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/2022)|May 1, 2023|
 |2023|[Snapshot National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/2023)|May 1, 2024|
+|2024|[Snapshot National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/2024)|May 19, 2025|
 
 ## What static datasets are available?
 
@@ -45,6 +48,6 @@ This depends on the year for which you are accessing data.  For Annual filing pe
 
 | Dataset | Available Years |
 |---|---|
-| [Three Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/three-year-national-loan-level-dataset/)|  2017, 2018, 2019, 2020|
-| [One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/)| 2017, 2018, 2019, 2020, 2021, 2022|
-| [Snapshot National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/)| 2017, 2018, 2019, 2020, 2021, 2022, 2023|
+| [Three Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/three-year-national-loan-level-dataset/)|  2017, 2018, 2019, 2020, 2021|
+| [One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/)| 2017, 2018, 2019, 2020, 2021, 2022, 2023|
+| [Snapshot National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/)| 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024|
