@@ -227,6 +227,11 @@
   padding-left: .5em;
 }
 
+.usa-nav__primary .usa-accordion__button > span {
+  display: inline-flex;
+  align-items: center;
+}
+
 @media screen and (min-width: 1500px) {
   .hmda-name {
     display: inline-block;
