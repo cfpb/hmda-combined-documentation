@@ -61,6 +61,9 @@ COPY --from=build-stage /app/sidebars.js /app/sidebars.js
 COPY --from=build-stage /app/src /app/src
 COPY --from=build-stage /app/build /app/build
 
+# Delete all the npm cruft that we don't need when serving to avoid any lingering vulnerabilities 
+RUN rm -rf /usr/local/lib/node_modules/npm /usr/local/bin/npm /usr/local/bin/npx
+
 # Non-root user
 RUN addgroup -S hmda_group && adduser -S hmda_user -G hmda_group
 USER hmda_user
