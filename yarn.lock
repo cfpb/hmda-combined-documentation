@@ -7905,7 +7905,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:1.16.0":
+"follow-redirects@npm:^1.16.0":
   version: 1.16.0
   resolution: "follow-redirects@npm:1.16.0"
   peerDependenciesMeta:
@@ -9630,7 +9630,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:3.14.2":
+"js-yaml@npm:^3.14.2":
   version: 3.14.2
   resolution: "js-yaml@npm:3.14.2"
   dependencies:
@@ -10284,7 +10284,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdast-util-to-hast@npm:13.2.1":
+"mdast-util-to-hast@npm:^13.2.1":
   version: 13.2.1
   resolution: "mdast-util-to-hast@npm:13.2.1"
   dependencies:
