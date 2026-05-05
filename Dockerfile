@@ -44,21 +44,29 @@ RUN yarn build
 ### Run Stage ###
 FROM node:20-alpine3.23 AS run-stage
 COPY --from=build-stage  /app/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
+ARG NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
 
 # Set the working directory to /app
 WORKDIR /app
 
-# Copy files from build-stage
-COPY --from=build-stage /app/package.json /app/package.json
+# Copy files from build-stage (setting up for yarn install of only production deps)
+COPY --from=build-stage /app/package.json /app/yarn.lock /app/.yarnrc.yml ./
+COPY --from=build-stage /app/.yarn ./.yarn
+
+# Install production deps instead of copying over all deps including potentially vulnerable dev deps
+RUN yarn workspaces focus --production
+
 COPY --from=build-stage /app/docusaurus.config.js /app/docusaurus.config.js
 COPY --from=build-stage /app/sidebars.js /app/sidebars.js
 COPY --from=build-stage /app/src /app/src
-COPY --from=build-stage /app/node_modules /app/node_modules
 COPY --from=build-stage /app/build /app/build
+
+# Delete all the npm cruft that we don't need when serving to avoid any lingering vulnerabilities 
+RUN rm -rf /usr/local/lib/node_modules/npm /usr/local/bin/npm /usr/local/bin/npx
 
 # Non-root user
 RUN addgroup -S hmda_group && adduser -S hmda_user -G hmda_group
 USER hmda_user
 
 EXPOSE 8080
-CMD ["yarn", "run", "serve", "--", "--port", "8080", "--host", "0.0.0.0"]
+CMD ["yarn", "run", "serve", "--port", "8080", "--host", "0.0.0.0"]
