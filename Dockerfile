@@ -46,6 +46,10 @@ FROM node:20-alpine3.23 AS run-stage
 COPY --from=build-stage  /app/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 ARG NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
 
+# Temporary fix for CVE-2026-34182 (openssl < 3.5.7-r0)
+# More info at: GHE #5692
+RUN apk update && apk add --no-cache "openssl>=3.5.7-r0" "libssl3>=3.5.7-r0" "libcrypto>=3.5.7-r0"
+
 # Set the working directory to /app
 WORKDIR /app
 
