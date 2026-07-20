@@ -40,7 +40,8 @@
     "qs": "^6.15.2",
     "ws": "^8.20.1",
     "shell-quote": "^1.9.0",
-    "body-parser": "^1.20.6"
+    "body-parser": "^1.20.6",
+    "websocket-driver": "^0.7.5"
   },
   "devDependencies": {
     "@discoveryjs/json-ext": "^0.5.7",
