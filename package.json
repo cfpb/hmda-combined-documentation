@@ -26,7 +26,7 @@
   },
   "resolutions": {
     "serialize-javascript": ">=7.0.3",
-    "postcss": ">=8.5.10",
+    "postcss": "^8.5.18",
     "@cypress/request": ">=4.0.0",
     "uuid": ">=14.0.0",
     "gray-matter@npm:^4.0.3/js-yaml": "^3.15.0",
@@ -40,7 +40,9 @@
     "qs": "^6.15.2",
     "ws": "^8.20.1",
     "shell-quote": "^1.9.0",
-    "body-parser": "^1.20.6"
+    "body-parser": "^1.20.6",
+    "brace-expansion@npm:^1.1.7": "^1.1.16",
+    "brace-expansion@npm:^2.0.2": "^2.1.2"
   },
   "devDependencies": {
     "@discoveryjs/json-ext": "^0.5.7",
