@@ -1,4 +1,4 @@
-const { HOST } = Cypress.env()
+const { HOST } = Cypress.expose()
 
 const DOCS_DEFAULT_URL = `${HOST}/documentation/category/frequently-asked-questions`
 const FIG_DOCS_DEFAULT_URL = `${HOST}/documentation/fig/2025/overview` // Takes user to most current FIG document
