@@ -30,9 +30,11 @@ This command generates static content into the `build` directory and can be serv
 
 #### End-to-End Testing
 
-Run tests via cli: `yarn run cypress run`
+Run tests via cli: `yarn cypress run`
 <br />
-Run tests via Cypress UI: `yarn run cypress open`
+Run tests via Cypress UI: `yarn cypress open`
+
+To run Cypress against a host other than localhost:3000, use an `expose` flag, e.g.: `yarn cypress open --expose HOST=https://staging.website.gov`
 
 ### Search + Newely Added/Updating Documentation
 
