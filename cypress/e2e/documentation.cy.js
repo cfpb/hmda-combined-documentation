@@ -74,8 +74,8 @@ describe('Algolia user interactions', () => {
     cy.visit(DOCS_DEFAULT_URL)
     cy.get('.DocSearch').click()
     cy.get('#docsearch-input').type('hmda maps')
-    cy.get('#docsearch-hits0-item-0 > a').contains('HMDA Maps')
-    cy.get('#docsearch-hits0-item-0 > a').click({force: true})
+    cy.get('#docsearch-hits_ffiec-beta-cfpb_0-item-0 > a').contains('HMDA Maps')
+    cy.get('#docsearch-hits_ffiec-beta-cfpb_0-item-0 > a').click({force: true})
     cy.location().should(loc => {
       expect(loc.href).to.eq(`${HOST}/documentation/faq/data-browser-maps-faq`)
     })
@@ -85,8 +85,8 @@ describe('Algolia user interactions', () => {
     cy.visit(DOCS_DEFAULT_URL)
     cy.get('.DocSearch').click()
     cy.get('#docsearch-input').type('hmda maps')
-    cy.get('#docsearch-hits0-item-2 > a').contains('option')
-    cy.get('#docsearch-hits0-item-2 > a').click({force: true})
+    cy.get('#docsearch-hits_ffiec-beta-cfpb_0-item-2 > a').contains('option')
+    cy.get('#docsearch-hits_ffiec-beta-cfpb_0-item-2 > a').click({force: true})
     cy.location().should(loc => {
       expect(loc.href).to.eq(`${HOST}/documentation/faq/data-browser-maps-faq#what-does-each-option-mean`)
     })
@@ -120,7 +120,7 @@ describe('Covers Filing Instructions Guide (FIG) interactions', () => {
     cy.get('.DocSearch').click()
     cy.get('#docsearch-input').type('2023 Loan/Application Register format')
     cy.get('.DocSearch-Hit-source').invoke('remove') // Remove the HMTL element that is blocking Cypress from clicking
-    cy.get('#docsearch-hits0-item-0 > a > .DocSearch-Hit-Container')
+    cy.get('#docsearch-hits_ffiec-beta-cfpb_0-item-0 > a > .DocSearch-Hit-Container')
       .contains('Loan/Application Register format')
       .click()
     cy.get('[id^=33--loanapplication-register-format]').contains('Loan/Application Register')
