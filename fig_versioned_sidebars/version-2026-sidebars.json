@@ -49,6 +49,11 @@
       "items": [
         {
           "type": "link",
+          "label": "2027 Filing Instructions Guide",
+          "href": "/fig/2027/overview"
+        },
+        {
+          "type": "link",
           "label": "2026 Filing Instructions Guide",
           "href": "/fig/2026/overview"
         },
@@ -84,6 +89,11 @@
       "label": "Supplemental Guides for Quarterly Filers",
       "collapsed": true,
       "items": [
+        {
+          "type": "link",
+          "label": "2027 Supplemental Guide for Quarterly Filers",
+          "href": "/fig/2027/supplemental-guide-for-quarterly-filers"
+        },
         {
           "type": "doc",
           "id": "supplemental-guide-for-quarterly-filers",

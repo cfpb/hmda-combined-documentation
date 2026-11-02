@@ -15,7 +15,8 @@ function handleScroll() {
     2023: 'docs-version-2023',
     2024: 'docs-version-2024',
     2025: 'docs-version-2025',
-    2026: 'docs-version-2026', // 2026 is considered the latest
+    2026: 'docs-version-2026',
+    2027: 'docs-version-2027', // 2027 is considered the latest
   }
 
   // Check if the path matches the pattern for FIG overview pages

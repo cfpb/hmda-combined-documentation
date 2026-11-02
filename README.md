@@ -70,29 +70,29 @@ The ```SearchBar``` component has a slightly modified CSS (./src/theme/SearchBar
 
 #### To add a new version/year of the FIG:
 
-1. Go to ```/fig_versioned_docs``` and duplicate the folder of the most recent version (```version-2025```). Name this new folder with the current year (```version-2026```)
-2. Go to ```/fig_versioned_sidebars``` and duplicate the .json file for the most recent version (```version-2025-sidebards.json```). Name this new file with the same year used in step 1 (```version-2026-sidebars.json```)
-3. Go to ```/fig_versions.json``` and add the year for the new FIG to the top of the array ("2026").
+1. Go to ```/fig_versioned_docs``` and duplicate the folder of the most recent version (```version-2026```). Name this new folder with the current year (```version-2027```)
+2. Go to ```/fig_versioned_sidebars``` and duplicate the .json file for the most recent version (```version-2026-sidebards.json```). Name this new file with the same year used in step 1 (```version-2027-sidebars.json```)
+3. Go to ```/fig_versions.json``` and add the year for the new FIG to the top of the array ("2027").
 4. Update the content in the following:
-> - FIG: ```/fig_versioned_docs/version-2026/overview.mdx```
-> - Sidebar: ```/fig_versioned_sidebars/version-2026-sidebars.json```
+> - FIG: ```/fig_versioned_docs/version-2027/overview.mdx```
+> - Sidebar: ```/fig_versioned_sidebars/version-2027-sidebars.json```
 <br /><br />
-The ```items``` in the ```version-2026-sidebars.json``` should correlate to the ```H2 Headings ( ## )``` in the ```/version-2026/overview.mdx``` file:
+The ```items``` in the ```version-2027-sidebars.json``` should correlate to the ```H2 Headings ( ## )``` in the ```/version-2027/overview.mdx``` file:
 
 ```
 overview.mdx:
 
-## 2. Changes to the Submission Process for Data Collected in 2026 {#changes}
+## 2. Changes to the Submission Process for Data Collected in 2027 {#changes}
 ```
 
 ```
-version-2026-sidebars.json:
+version-2027-sidebars.json:
 
     "items": [
         {
           "type": "link",
-          "href": "/fig/2026/overview#changes",
-          "label": "2. Changes for 2026"
+          "href": "/fig/2027/overview#changes",
+          "label": "2. Changes for 2027"
         },      
      ]
 ```
@@ -111,14 +111,16 @@ version-2026-sidebars.json:
     2022: 'docs-version-2022',
     2023: 'docs-version-2023',
     2024: 'docs-version-2024',
-    2025: 'docs-version-2025', // 2025 is considered the latest
+    2025: 'docs-version-2025',
+    2026: 'docs-version-2026',
+    2027: 'docs-version-2027', // 2027 is considered the latest
   }
 ```
 
 > - Navigate to `/src/css/custom.scss` and add the latest FIG release css class
 
 ```css
-.docs-version-2025, .docs-version-2024, .docs-version-2023, .docs-version-2022, .docs-version-2021 {
+.docs-version-2027, .docs-version-2026, .docs-version-2025, .docs-version-2024, .docs-version-2023, .docs-version-2022, .docs-version-2021 {
   // Add latest FIG version year
 }
 ```
@@ -132,7 +134,7 @@ version-2026-sidebars.json:
     submenu: [
       {
         name: 'Filing Instructions Guide',
-        href: `/documentation/fig/2024/overview`, // Link to update
+        href: `/documentation/fig/2027/overview`, // Link to update
       },
       
     ],
@@ -206,7 +208,7 @@ The version log JSON for supplemnental guide for quarterly filers lives under `f
 
 #### How to add new year
 
-1. Copy the file called `supplemental-guide-for-quarterly-filers.mdx` from the previous year (2025) and add it to the `fig_versioned_docs` -> `version-{year}`
+1. Copy the file called `supplemental-guide-for-quarterly-filers.mdx` from the previous year (2026) and add it to the `fig_versioned_docs` -> `version-{year}`
 2. The version log file will need to be created and updated, it contains the new changes that years supplemental guide.
 3. Work with the BAs to update the content of the new supplemental guide (changes are minor from year to year).
 4. Add the new supplemental guide link to the new `version-{year}-sidebars.json` found under `fig_versioned_sidebars` folder. Updates to the previous years `version-{year}-sidebars.json` files will need to be updated to contain the new links for both the new FIG version and the supplementary guide.
@@ -215,8 +217,8 @@ The version log JSON for supplemnental guide for quarterly filers lives under `f
 // add links to the new FIG year to all the existing version-{year}-sidebars.json
 {
   "type": "link",
-  "label": "2025 Filing Instructions Guide",
-  "href": "/fig/2026/overview"
+  "label": "2027 Filing Instructions Guide",
+  "href": "/fig/2027/overview"
 },
 ...
 {
@@ -227,12 +229,12 @@ The version log JSON for supplemnental guide for quarterly filers lives under `f
     { // If latest supplemental guide make it type: doc
       "type": "doc",
       "id": "supplemental-guide-for-quarterly-filers",
-      "label": "2025 Supplemental Guide for Quarterly Filers"
+      "label": "2027 Supplemental Guide for Quarterly Filers"
     },
     { // Linking to older supplemental guides are type: link
       "type": "link",
-      "label": "2024 Supplemental Guide for Quarterly Filers",
-      "href": "/fig/2024/supplemental-guide-for-quarterly-filers"
+      "label": "2026 Supplemental Guide for Quarterly Filers",
+      "href": "/fig/2026/supplemental-guide-for-quarterly-filers"
     },
   ]
 }
@@ -259,7 +261,7 @@ The version log JSON for supplemnental guide for quarterly filers lives under `f
 - Increment the `cypress/e2e/documentation.cy.js` to the newest FIG year values
 
 ```
-const FIG_DOCS_DEFAULT_URL = `${HOST}/documentation/fig/2025/overview` // Takes user to most current FIG document
-const CURRENT_FIG_YEAR = '2025'
+const FIG_DOCS_DEFAULT_URL = `${HOST}/documentation/fig/2026/overview` // Takes user to most current FIG document
+const CURRENT_FIG_YEAR = '2026'
 const LATEST_FIG_YEAR = '2026'
 ```

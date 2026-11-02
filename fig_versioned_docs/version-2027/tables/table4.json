@@ -1,0 +1,20 @@
+[
+    {
+        "Edit ID": "S300",
+        "Data Point Name": "N/A",
+        "Affected Data Fields": "Record Identifier",
+        "Edit Description": "The data provided in the file is incorrect. Please review the information below and update your file accordingly.   The following criteria must be met:   1) The first row of your file must begin with a 1; and   2) Any subsequent rows must begin with a 2."
+    },
+    {
+        "Edit ID": "S301",
+        "Data Point Name": "Legal Entity Identifier (LEI)",
+        "Affected Data Fields": "Legal Entity Identifier (LEI)",
+        "Edit Description": "The LEI in this row does not match the reported LEI in the transmittal sheet (the first row of your file). Please update your file accordingly."
+    },
+    {
+        "Edit ID": "V600",
+        "Data Point Name": "Legal Entity Identifier (LEI)",
+        "Affected Data Fields": "Legal Entity Identifier (LEI)",
+        "Edit Description": "An LEI in an invalid format was provided. Please review the information below and update your file accordingly.    1) The required format for LEI is alphanumeric with 20 characters, and it cannot be left blank."
+    }
+]

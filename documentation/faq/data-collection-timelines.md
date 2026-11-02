@@ -14,25 +14,21 @@ The collection window of HMDA Data submission and resubmission is a three year p
 
 | Data Year | Collection Begins | Resubmission Ends |
 | --------- | ----------------- | ----------------- |
-| 2018      | January 1, 2019   | December 31, 2021 |
-| 2019      | January 1, 2020   | December 31, 2022 |
-| 2020      | January 1, 2021   | December 31, 2023 |
-| 2021      | January 1, 2022   | December 31, 2024 |
-| 2022      | January 1, 2023   | December 31, 2025 |
 | 2023      | January 1, 2024   | December 31, 2026 |
 | 2024      | January 1, 2025   | December 31, 2027 |
 | 2025      | January 1, 2026   | December 31, 2028 |
 | 2026      | January 1, 2027   | December 31, 2029 |
+| 2027      | January 1, 2028   | December 31, 2030 |
 
 ## Filing Instructions Guide (FIG)
 
 | HMDA Filing Instructions Guides (FIG) | 
 |:---:|
-| <a target="_blank" rel="noopener noreferrer" href="https://files.ffiec.cfpb.gov/documentation/2018-hmda-fig-2018-hmda-rule.pdf">2018</a> \| <a target="_blank" rel="noopener noreferrer" href="https://files.ffiec.cfpb.gov/documentation/2019-hmda-fig.pdf">2019</a> \| <a target="_blank" rel="noopener noreferrer" href="https://files.ffiec.cfpb.gov/documentation/2020-hmda-fig.pdf">2020</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2021/overview">2021</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2022/overview">2022</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2023/overview">2023</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2024/overview">2024</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2025/overview">2025</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2026/overview">2026</a>
+| <a target="_blank" rel="noopener noreferrer" href="https://files.ffiec.cfpb.gov/documentation/2018-hmda-fig-2018-hmda-rule.pdf">2018</a> \| <a target="_blank" rel="noopener noreferrer" href="https://files.ffiec.cfpb.gov/documentation/2019-hmda-fig.pdf">2019</a> \| <a target="_blank" rel="noopener noreferrer" href="https://files.ffiec.cfpb.gov/documentation/2020-hmda-fig.pdf">2020</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2021/overview">2021</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2022/overview">2022</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2023/overview">2023</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2024/overview">2024</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2025/overview">2025</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2026/overview">2026</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2027/overview">2027</a>
 
 **Note**: The 2018 FIG link in the table is the updated FIG released on October 11, 2018 for data collected in 2018 incorporating the 2018 HMDA rule. The <a target="_blank" rel="noopener noreferrer" href="https://files.ffiec.cfpb.gov/documentation/2018-hmda-fig.pdf">previous 2018 FIG</a> released before the ruling is also available. Data collection for 2018 is closed.
 
-The Filing Instructions Guide is available to filers in an online format that is searchable, linkable, and shareable. Access the [2025 Online FIG](/documentation/fig/2025/overview).
+The Filing Instructions Guide is available to filers in an online format that is searchable, linkable, and shareable. Access the [2026 Online FIG](/documentation/fig/2026/overview).
 
 ## Annual Filing Period Dates
 
@@ -46,7 +42,7 @@ See below for information on HMDA Annual Filing period dates:
 
 If March 1 falls on a Saturday or Sunday, what is the filing deadline for submission of HMDA data?
 
-As stated in <a target="_blank" rel="noopener noreferrer" href="https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-1">Section 1003.5(a)(1)(iii)</a> when the last day for submission falls on a Saturday or Sunday, a submission shall be considered timely if it is submitted on the next succeeding Monday. For example, submissions of 2019 HMDA data were considered timely if received on or before Monday, March 2, 2020.
+As stated in <a target="_blank" rel="noopener noreferrer" href="https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-1">Section 1003.5(a)(1)(iii)</a> when the last day for submission falls on a Saturday or Sunday, a submission shall be considered timely if it is submitted on the next succeeding Monday. For example, submissions of 2025 HMDA data were considered timely if received on or before Monday, March 2, 2026.
 
 ## Quarterly Filing Period Dates
 
