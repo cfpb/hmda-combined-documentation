@@ -1,6 +1,6 @@
 ### Build Stage ###
 # Use node as the base image
-FROM node:20-alpine3.23 AS build-stage
+FROM node:24-alpine3.23 AS build-stage
 
 # Set the working directory to /app
 WORKDIR /app
@@ -42,7 +42,7 @@ RUN yarn build
 # RUN npm prune --production
 
 ### Run Stage ###
-FROM node:20-alpine3.23 AS run-stage
+FROM node:24-alpine3.23 AS run-stage
 COPY --from=build-stage  /app/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 ARG NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
 
