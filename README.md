@@ -258,7 +258,7 @@ The version log JSON for supplemnental guide for quarterly filers lives under `f
 - `src/common/constants/dev-config.json`
 
 ### Updating the Cypress tests
-- Increment the `cypress/e2e/documentation.cy.js` to the newest FIG year values
+- Increment the `cypress/e2e/documentation.cy.js` to the newest FIG year values (see GHE #5974 for more details)
 
 ```
 const FIG_DOCS_DEFAULT_URL = `${HOST}/documentation/fig/2026/overview` // Takes user to most current FIG document

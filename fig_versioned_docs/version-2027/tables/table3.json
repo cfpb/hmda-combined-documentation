@@ -13,7 +13,7 @@
   },
   {
     "Type of Data Field": "Loan/Application Register",
-    "Edit Number": "V625, V626, V716, Q603",
+    "Edit Number": "V625, V626, V627, V716, Q603",
     "Data Point": "Property Location",
     "Modification": "Updated edit with FFIEC Geocoder system link"
   },
