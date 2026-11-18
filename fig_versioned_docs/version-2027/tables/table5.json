@@ -1,0 +1,62 @@
+[
+    {
+        "Edit ID": "S302",
+        "Data Field Name(s)": "Calendar Year",
+        "Edit Description": "The reported Calendar Year does not match the filing year indicated at the start of the filing. Please confirm the information below and update your file accordingly.    1) The correct file has been uploaded; and   2) The correct filing year was chosen at the start of the filing; and   3) The calendar year is listed correctly in the file."
+    },
+    {
+        "Edit ID": "S303",
+        "Data Field Name(s)": "Legal Entity Identifier (LEI)",
+        "Edit Description": "The reported Legal Entity Identifier must match the Legal Entity Identifier for the financial institution for which you are filing. Please confirm the information below and update your file accordingly.   1) The correct financial institution was at the start of the filing; and   2) The correct file was uploaded; and   3) The Legal Entity Identifier is reported correctly in the file."
+    },
+    {
+        "Edit ID": "S304",
+        "Data Field Name(s)": "Total Number of Entries Contained in Submission",
+        "Edit Description": "The reported  Total Number of Entries Contained in Submission  does not match the total number of LAR records in the HMDA file. Please update your file accordingly to  ensure that your file contains the correct number of entries."
+    },
+    {
+        "Edit ID": "V601",
+        "Data Field Name(s)": "Financial Institution Name; Contact Person's Name; Contact Person's E-mail Address; Contact Person's Office Street Address; Contact Person's Office City",
+        "Edit Description": "The following data fields are required, and cannot be left blank. A blank value(s) was provided. Please review the information below and update your file accordingly.    1) Financial Institution Name;   2) Contact Person's Name;   3) Contact Person's E-mail Address;   4) Contact Person's Office Street Address;   5) Contact Person's Office City"
+    },
+    {
+        "Edit ID": "V602",
+        "Data Field Name(s)": "Calendar Quarter",
+        "Edit Description": "An invalid Calendar Quarter was reported. Please review the information below and update your file accordingly.    1) Calendar Quarter must equal 4, and cannot be left blank."
+    },
+    {
+        "Edit ID": "V603",
+        "Data Field Name(s)": "Contact Person's Telephone Number",
+        "Edit Description": "An invalid Contact Person's Telephone Number was provided. Please review the information below and update your file accordingly.   1) The required format for the  Contact Person's Telephone Number  is 999-999-9999, and it cannot be left blank."
+    },
+    {
+        "Edit ID": "V604",
+        "Data Field Name(s)": "Contact Person's Office State",
+        "Edit Description": "An invalid Contact Person's Office State was provided. Please review the information below and update your file accordingly.   1) Contact Person's Office State must be a two-letter state code, and cannot be left blank."
+    },
+    {
+        "Edit ID": "V605",
+        "Data Field Name(s)": "Contact Person's Office ZIP Code",
+        "Edit Description": "An invalid Contact Person's ZIP Code was provided. Please review the information below and update your file accordingly.   1) The required format for the  Contact Person's ZIP Code  is 12345-1010 or 12345, and it cannot be left blank."
+    },
+    {
+        "Edit ID": "V606",
+        "Data Field Name(s)": "Total Number of Entries Contained in Submission",
+        "Edit Description": "The reported  Total Number of Entries Contained in Submission  is not in the valid format. Please review the information below and update your file accordingly.   1) The required format for the  Total Number of Entries Contained in Submission  is a whole number that is greater than zero, and it cannot be left blank."
+    },
+    {
+        "Edit ID": "V607",
+        "Data Field Name(s)": "Federal Taxpayer Identification Number",
+        "Edit Description": "An invalid Federal Taxpayer Identification Number was provided. Please review the information below and update your file accordingly.   1) The required format for the  Federal Taxpayer Identification Number  is 99-9999999, and it cannot be left blank."
+    },
+    {
+        "Edit ID": "V717",
+        "Data Field Name(s)": "Contact Person's Email Address",
+        "Edit Description": "An invalid Contact Person's Email Address was provided. Please review the information below and update your file accordingly.   1) The required format for the  Contact Person's Email Address  is name@example.com, and it cannot be left blank."
+    },
+    {
+        "Edit ID": "V719",
+        "Data Field Name(s)": "Financial Institution Name; LEI",
+        "Edit Description": "An invalid Financial Institution Name was reported. Please review the information below and update your file accordingly:   1) The required format for  Financial Institution Name  is alphanumeric. The Financial Institution Name field contains only numbers and no letters.   2) The Financial Institution Name provided matches the LEI provided. Please update the  Financial Institution Name."
+    }
+]

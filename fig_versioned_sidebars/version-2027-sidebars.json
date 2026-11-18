@@ -1,0 +1,130 @@
+{
+  "figDocs": [
+    {
+      "type": "category",
+      "label": "2027 Filing Instructions Guide",
+      "collapsed": true,
+      "items": [
+        {
+          "type": "doc",
+          "id": "overview",
+          "label": "1. Overview"
+        },
+        {
+          "type": "link",
+          "href": "/fig/2027/overview#changes",
+          "label": "2. Changes for 2027"
+        },
+        {
+          "type": "link",
+          "href": "/fig/2027/overview#file-specifications",
+          "label": "3. File Specifications"
+        },
+        {
+          "type": "link",
+          "href": "/fig/2027/overview#data-specifications",
+          "label": "4. Data Specifications"
+        },
+        {
+          "type": "link",
+          "href": "/fig/2027/overview#edit-specifications",
+          "label": "5. Edit Specifications"
+        },
+        {
+          "type": "link",
+          "href": "/fig/2027/overview#additional-information",
+          "label": "6. Additional Info"
+        },
+        {
+          "type": "link",
+          "href": "/fig/2027/overview#paperwork-reduction-act",
+          "label": "Paperwork Reduction"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Filing Instruction Guides",
+      "collapsed": true,
+      "items": [
+        {
+          "type": "link",
+          "label": "2027 Filing Instructions Guide",
+          "href": "/fig/2027/overview"
+        },
+        {
+          "type": "link",
+          "label": "2026 Filing Instructions Guide",
+          "href": "/fig/2026/overview"
+        },
+        {
+          "type": "link",
+          "label": "2025 Filing Instructions Guide",
+          "href": "/fig/2025/overview"
+        },
+        {
+          "type": "link",
+          "label": "2024 Filing Instructions Guide",
+          "href": "/fig/2024/overview"
+        },
+        {
+          "type": "link",
+          "label": "2023 Filing Instructions Guide",
+          "href": "/fig/2023/overview"
+        },
+        {
+          "type": "link",
+          "label": "2022 Filing Instructions Guide",
+          "href": "/fig/2022/overview"
+        },
+        {
+          "type": "link",
+          "label": "2021 Filing Instructions Guide",
+          "href": "/fig/2021/overview"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Supplemental Guides for Quarterly Filers",
+      "collapsed": true,
+      "items": [
+        {
+          "type": "doc",
+          "id": "supplemental-guide-for-quarterly-filers",
+          "label": "2027 Supplemental Guide for Quarterly Filers"
+        },
+        {
+          "type": "link",
+          "label": "2026 Supplemental Guide for Quarterly Filers",
+          "href": "/fig/2026/supplemental-guide-for-quarterly-filers"
+        },
+        {
+          "type": "link",
+          "label": "2025 Supplemental Guide for Quarterly Filers",
+          "href": "/fig/2025/supplemental-guide-for-quarterly-filers"
+        },
+        {
+          "type": "link",
+          "label": "2024 Supplemental Guide for Quarterly Filers",
+          "href": "/fig/2024/supplemental-guide-for-quarterly-filers"
+        },
+        {
+          "type": "link",
+          "label": "2023 Supplemental Guide for Quarterly Filers",
+          "href": "/fig/2023/supplemental-guide-for-quarterly-filers"
+        },
+        {
+          "type": "link",
+          "label": "2022 Supplemental Guide for Quarterly Filers",
+          "href": "/fig/2022/supplemental-guide-for-quarterly-filers"
+        },
+        {
+          "type": "link",
+          "label": "2021 Supplemental Guide for Quarterly Filers",
+          "href": "/fig/2021/supplemental-guide-for-quarterly-filers"
+        }
+      ]
+    }
+  ]
+}

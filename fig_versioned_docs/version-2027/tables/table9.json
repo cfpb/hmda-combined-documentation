@@ -1,0 +1,8 @@
+[
+    {
+        "Edit ID": "Q647",
+        "Data Field": "Federal Agency",
+        "Affected Data Fields": "Federal Agency; Any field eligible for exemption code.",
+        "Edit Description": "Please review the information below and update your file, if needed.   If Federal Agency equals 7, indicating a non-depository institution, exemption codes should not be used in the Loan/Application Register. Your data indicates that at least one exemption code was used."
+    }
+]

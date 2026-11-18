@@ -1,9 +1,9 @@
 const { HOST } = Cypress.expose()
 
 const DOCS_DEFAULT_URL = `${HOST}/documentation/category/frequently-asked-questions`
-const FIG_DOCS_DEFAULT_URL = `${HOST}/documentation/fig/2025/overview` // Takes user to most current FIG document
-const CURRENT_FIG_YEAR = '2025'
-const LATEST_FIG_YEAR = '2025'
+const FIG_DOCS_DEFAULT_URL = `${HOST}/documentation/fig/2026/overview` // Takes user to most current FIG document
+const CURRENT_FIG_YEAR = '2026'
+const LATEST_FIG_YEAR = '2026'
 
 describe('General Checks', () => {
   it('Government banner is displayed and image is visible', () => {

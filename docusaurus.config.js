@@ -23,7 +23,7 @@ const config = {
   staticDirectories: ['static'],
 
   customFields: {
-    latestFigYear: '2025', // Using key to determine 'latestFigYear' in various places. The key is like a 'env' or const configuration.
+    latestFigYear: '2026', // Using key to determine 'latestFigYear' in various places. The key is like a 'env' or const configuration.
   },
 
   presets: [
@@ -73,8 +73,16 @@ const config = {
         id: 'fig',
         path: 'fig_versioned_docs',
         routeBasePath: '/fig',
-        lastVersion: '2025',
+        lastVersion: '2026',
         versions: {
+          2027: {
+            label: '2027',
+            path: '2027',
+          },
+          2026: {
+            label: '2026',
+            path: '2026',
+          },
           2025: {
             label: '2025',
             path: '2025',
@@ -104,7 +112,7 @@ const config = {
       {
         redirects: [
           {
-            to: '/fig/2024/overview',
+            to: '/fig/2026/overview',
             from: ['/fig/overview', '/fig'],
           },
         ],

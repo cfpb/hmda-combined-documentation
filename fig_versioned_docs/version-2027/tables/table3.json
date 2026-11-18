@@ -1,0 +1,140 @@
+[
+  {
+    "Type of Data Field": "Transmittal Sheet & Loan/Application Register",
+    "Edit Number": "S303",
+    "Data Point": "Legal Entity Identifier (LEI)",
+    "Modification": "Reinstated edit for LEI cases"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "V609",
+    "Data Point": "Universal Loan Identifier (ULI)",
+    "Modification": "Updated edit with improved language on resolving check digit issues"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "V625, V626, V627, V716, Q603",
+    "Data Point": "Property Location",
+    "Modification": "Updated edit with FFIEC Geocoder system link"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "V671",
+    "Data Point": "Reason for Denial",
+    "Modification": "Updated language for consistency with similar edits and removed V671-2"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "V695",
+    "Data Point": "Mortgage Loan Originator NMLSR Identifier",
+    "Modification": "Updated edit to account for NA case and NMLSR ID requirements"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "V710",
+    "Data Point": "Credit Score",
+    "Modification": "Updated language for consistency with similar edits"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "V711",
+    "Data Point": "Reason for Denial",
+    "Modification": "Updated language for consistency with similar edits"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "V713",
+    "Data Point": "Automated Underwriting System",
+    "Modification": "Updated language for consistency with similar edits"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q607",
+    "Data Point": "Loan Amount",
+    "Modification": "Removed edit"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q614",
+    "Data Point": "Age",
+    "Modification": "Updated edit with expanded age range"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q615",
+    "Data Point": "Origination Charges",
+    "Modification": "Updated edit logic"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q616",
+    "Data Point": "Discount Points",
+    "Modification": "Updated edit logic"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q617",
+    "Data Point": "Combined Loan-to-Value Ratio",
+    "Modification": "Updated edit logic"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q624, Q625, Q626, Q627",
+    "Data Point": "Loan Amount",
+    "Modification": "Updated edit loan amount thresholds"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q628",
+    "Data Point": "Loan Amount",
+    "Modification": "Updated edit to account for lien status"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q629",
+    "Data Point": "Income",
+    "Modification": "Updated edit to include case where loan is not for a Business or Commercial Purpose"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q645",
+    "Data Point": "Loan Amount",
+    "Modification": "Removed edit Q645-2 due to overlap with Q628"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q646",
+    "Data Point": "Any data point eligible for an exemption code",
+    "Modification": "Updated edit to further clarify when partial exemption codes should be used"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q650",
+    "Data Point": "Interest Rate",
+    "Modification": "Updated edit language for clarity and removed Q650-2"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q660",
+    "Data Point": "Property Location",
+    "Modification": "Updated edit to include “\\” character"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q661",
+    "Data Point": "Loan Amount",
+    "Modification": "Added edit to check loan amount on 1-4 housing units"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q634",
+    "Data Point": "Action Taken",
+    "Modification": "Updated edit language for consistency with similar edits"
+  },
+  {
+    "Type of Data Field": "Transmittal Sheet",
+    "Edit Number": "Q303",
+    "Data Point": "Federal Agency; Federal Taxpayer Identification Number",
+    "Modification": "Updated edit to only account for Tax Identification Number and Federal Agency"
+  }
+]

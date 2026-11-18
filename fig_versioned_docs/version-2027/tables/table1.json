@@ -1,0 +1,107 @@
+[
+    {
+        "Data Field Number": "1",
+        "Data Field Name": "Record Identifier – Value is 1",
+        "Data Field Type": "Numeric",
+        "Valid Values": "1",
+        "Descriptions and Examples": ""
+    },
+    {
+        "Data Field Number": "2",
+        "Data Field Name": "Financial Institution Name",
+        "Data Field Type": "Alphanumeric",
+        "Valid Values": "",
+        "Descriptions and Examples": "Example:   Ficus Bank"
+    },
+    {
+        "Data Field Number": "3",
+        "Data Field Name": "Calendar Year",
+        "Data Field Type": "Numeric",
+        "Valid Values": "",
+        "Descriptions and Examples": "Example:   2027"
+    },
+    {
+        "Data Field Number": "4",
+        "Data Field Name": "Calendar Quarter",
+        "Data Field Type": "Numeric",
+        "Valid Values": "4",
+        "Descriptions and Examples": "4. Annual submissions for all HMDA filers for covered loans and applications with respect to which final action was taken from January 1st (01/01) and December 31st (12/31)   Codes 1, 2, and 3 are used only during quarterly filing by institutions required to report <a href='https://www.consumerfinance.gov/about-us/newsroom/cfpb-rescinds-series-of-policy-statements-to-ensure-industry-complies-with-consumer-protection-laws/' target='_blank' rel='noopener noreferrer'>data quarterly</a>. More information on quarterly filing is found in the <a href='/documentation/fig/2027/supplemental-guide-for-quarterly-filers' target='_blank' rel='noopener noreferrer'>Supplemental Guide for Quarterly Filers</a>."
+    },
+    {
+        "Data Field Number": "5",
+        "Data Field Name": "Contact Person’s Name",
+        "Data Field Type": "Alphanumeric",
+        "Valid Values": "",
+        "Descriptions and Examples": "Example:   Erika Otis"
+    },
+    {
+        "Data Field Number": "6",
+        "Data Field Name": "Contact Person’s Telephone Number",
+        "Data Field Type": "Alphanumeric",
+        "Valid Values": "",
+        "Descriptions and Examples": "Example:   999-999-9999"
+    },
+    {
+        "Data Field Number": "7",
+        "Data Field Name": "Contact Person’s E-mail Address",
+        "Data Field Type": "Alphanumeric",
+        "Valid Values": "",
+        "Descriptions and Examples": "Example:   erikaotis@bank.com"
+    },
+    {
+        "Data Field Number": "8",
+        "Data Field Name": "Contact Person’s Office Street Address",
+        "Data Field Type": "Alphanumeric",
+        "Valid Values": "",
+        "Descriptions and Examples": "Example:   4321 W Random Blvd Ste 201"
+    },
+    {
+        "Data Field Number": "9",
+        "Data Field Name": "Contact Person’s Office City",
+        "Data Field Type": "Alphanumeric",
+        "Valid Values": "",
+        "Descriptions and Examples": "Example:   Somecity"
+    },
+    {
+        "Data Field Number": "10",
+        "Data Field Name": "Contact Person’s Office State",
+        "Data Field Type": "Alphanumeric",
+        "Valid Values": "",
+        "Descriptions and Examples": "Example:   CA"
+    },
+    {
+        "Data Field Number": "11",
+        "Data Field Name": "Contact Person’s Office ZIP Code",
+        "Data Field Type": "Alphanumeric",
+        "Valid Values": "",
+        "Descriptions and Examples": "Example:   90049-9998"
+    },
+    {
+        "Data Field Number": "12",
+        "Data Field Name": "Federal Agency",
+        "Data Field Type": "Numeric",
+        "Valid Values": "1   2   3   5   7   9",
+        "Descriptions and Examples": "1. Office of the Comptroller of the Currency (OCC)   2. Federal Reserve System (FRS)   3. Federal Deposit Insurance Corporation (FDIC)   5. National Credit Union Administration (NCUA)   7. United States Department of Housing and Urban Development (HUD)   9. Consumer Financial Protection Bureau (Bureau)"
+    },
+    {
+        "Data Field Number": "13",
+        "Data Field Name": "Total Number of Entries Contained in Submission",
+        "Data Field Type": "Numeric",
+        "Valid Values": "",
+        "Descriptions and Examples": "Example:   5000"
+    },
+    {
+        "Data Field Number": "14",
+        "Data Field Name": "Federal Taxpayer Identification Number",
+        "Data Field Type": "Alphanumeric",
+        "Valid Values": "",
+        "Descriptions and Examples": "Example:   99-9999999"
+    },
+    {
+        "Data Field Number": "15",
+        "Data Field Name": "Legal Entity Identifier (LEI)",
+        "Data Field Type": "Alphanumeric; Width is 20 characters",
+        "Valid Values": "",
+        "Descriptions and Examples": "Example:   10BX939C5543TQA1144M"
+    }
+]

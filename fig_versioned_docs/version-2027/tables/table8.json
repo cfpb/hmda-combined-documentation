@@ -1,0 +1,44 @@
+[
+    {
+        "Edit ID": "Q634",
+        "Data Point Name": "Action Taken",
+        "Affected Data Fields": "Action Taken; Loan Purpose",
+        "Edit Description": "Please review the information below and update your file, if needed.   If more than 25 loans reported Action Taken equals 1 and Loan Purpose equals 1, then the number of these loans generally should be less than or equal to 95% of the loans reported with Loan Purpose equals 1. Your data indicates a percentage outside of this range."
+    },
+    {
+        "Edit ID": "Q635",
+        "Data Point Name": "Action Taken",
+        "Affected Data Fields": "Action Taken; Total Number of Entries Contained in Submission",
+        "Edit Description": "Please review the information below and update your file, if needed.   No more than 15% of the loans in the file should report  Action Taken equals 2. Your data indicates a percentage outside of this range."
+    },
+    {
+        "Edit ID": "Q636",
+        "Data Point Name": "Action Taken",
+        "Affected Data Fields": "Action Taken; Total Number of Entries Contained in Submission",
+        "Edit Description": "Please review the information below and update your file, if needed.   No more than 30% of the loans in the file should report  Action Taken equals 4. Your data indicates a percentage outside of this range."
+    },
+    {
+        "Edit ID": "Q637",
+        "Data Point Name": "Action Taken",
+        "Affected Data Fields": "Action Taken; Total Number of Entries Contained in Submission",
+        "Edit Description": "Please review the information below and update your file, if needed.   No more than 15% of the loans in the file should report  Action Taken equals 5. Your data indicates a percentage outside of this range."
+    },
+    {
+        "Edit ID": "Q638",
+        "Data Point Name": "Action Taken",
+        "Affected Data Fields": "Action Taken",
+        "Edit Description": "Please review the information below and update your file, if needed.   The number of loans in the file that reported  Action Taken  equals 1 should be greater than or equal to 20% of the total number of loans that reported Action Taken 1, 2, 3, 4, 5, or 6. Your data indicates a percentage outside of this range."
+    },
+    {
+        "Edit ID": "Q639",
+        "Data Point Name": "Action Taken",
+        "Affected Data Fields": "Action Taken; Preapproval",
+        "Edit Description": "Please review the information below and update your file, if needed.   If more than 1000 loans were reported with  Preapproval  equals 1, then there should be at least 1 loan reported with Action Taken equals 7. Your data indicates a number outside of this range."
+    },
+    {
+        "Edit ID": "Q640",
+        "Data Point Name": "Income",
+        "Affected Data Fields": "Income; Total Number of Entries Contained in Submission",
+        "Edit Description": "Please review the information below and update your file, if needed.   No more than 20% of the loans in the file should report Income less than $10 thousand (entered as 10). Your data indicates a percentage outside of this range."
+    }
+]
