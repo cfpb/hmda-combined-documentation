@@ -36,7 +36,7 @@ Run tests via Cypress UI: `yarn cypress open`
 
 To run Cypress against a host other than localhost:3000, use an `expose` flag, e.g.: `yarn cypress open --expose HOST=https://staging.website.gov`
 
-### Search + Newely Added/Updating Documentation
+### Search + Newly Added/Updating Documentation
 
 Search feature is powered by [Algolia](https://www.algolia.com/) via the [DocSearch](https://docsearch.algolia.com/) program.
 
